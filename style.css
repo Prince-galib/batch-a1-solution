@@ -9,9 +9,8 @@ body{
 }
 /* banner section style starts here */
 .banner-con{
-    width: 1320px;
-    margin: 0;
-    border: 2px solid red;
+    max-width: 1320px;
+    margin: 0 auto;
     min-height: 600px;
     margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -38,4 +37,43 @@ body{
 .banner-contant h1{
     Font-size: 72px;
     font-weight: 900;
+}
+/* 65% section style starts here */
+.second-section-container{
+    Width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 90px; 
+}
+.second-section-contant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.second-section-contant h1{
+    color: rgba(255, 0, 0);
+    font-family: inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.second-section-contant p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+}
+.second-section-contant h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.image-container{
+    width: 802.9px;
+    height: 500px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
 }
